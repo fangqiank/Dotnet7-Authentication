@@ -40,13 +40,13 @@ app.MapGet("/", () => "Hello world");
 app.MapGet("/protected", () => "something super secret!")
     .RequireAuthorization("Manager");
 
-app.MapGet("/test", (
-    UserManager<IdentityUser> userMgr,
-    SignInManager<IdentityUser> signMgr
-    ) =>
-{
-    //userMgr.ResetPasswordAsync();
-});
+//app.MapGet("/test", (
+//    UserManager<IdentityUser> userMgr,
+//    SignInManager<IdentityUser> signMgr
+//    ) =>
+//{
+//    //userMgr.ResetPasswordAsync();
+//});
 
 app.MapGet("/register", async (
     string username, 

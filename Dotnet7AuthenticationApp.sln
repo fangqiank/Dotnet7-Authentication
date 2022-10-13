@@ -7,7 +7,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Dotnet7Authentication", "Do
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AutnticationSchemaDemo", "AutnticationSchemaDemo\AutnticationSchemaDemo.csproj", "{719CC2BD-F932-4A60-BCBF-177EC04FAEC8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IdentityManagement", "IdentityManagement\IdentityManagement.csproj", "{B3322E85-78FD-4CD7-A00B-E695012D5982}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IdentityManagement", "IdentityManagement\IdentityManagement.csproj", "{B3322E85-78FD-4CD7-A00B-E695012D5982}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CookieAuthentication", "CookieAuthentication\CookieAuthentication.csproj", "{31246F1F-8ABE-440E-8897-D1210FA1AA1E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{B3322E85-78FD-4CD7-A00B-E695012D5982}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B3322E85-78FD-4CD7-A00B-E695012D5982}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B3322E85-78FD-4CD7-A00B-E695012D5982}.Release|Any CPU.Build.0 = Release|Any CPU
+		{31246F1F-8ABE-440E-8897-D1210FA1AA1E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{31246F1F-8ABE-440E-8897-D1210FA1AA1E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{31246F1F-8ABE-440E-8897-D1210FA1AA1E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{31246F1F-8ABE-440E-8897-D1210FA1AA1E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
